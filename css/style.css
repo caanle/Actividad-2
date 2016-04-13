@@ -4,57 +4,73 @@
 
 #contenidos{
 	width: 1000px;
+	text-align: center;
 	height: auto;
 	margin: auto;
 	position: relative;
-	
-
+	font-family: 'Muli';
 }
 
 
-/*ETIQUETAS*/
+/*ETIQUETAS
+amarillo: #BFA954
+morado:   #B23DAB
+verde:    #37B200
+
+
+*/
 body{
-background-image: url(../img/fondo.jpg);
+/* background-image: url(../img/fondo.jpg); */
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
-color: white;
+font-family: 'Nunito', cursive;
+color: #B23DAB;
 margin-left: 10px;
-font-size: 60px;
+font-size: 4.5em;
 text-align: center; 
 }
 
+
 h2{
-font-family: 'Indie Flower', cursive;
-color: white;
+
+color: #D8D8D8;
 margin-left: 10px;
 font-size: 20px;
 text-align: left; 
 }
 
 h3{
-font-family: 'Shadows Into Light', cursive;;
+
 color: white;
-font-size: 30px;
+/*font-size: 30px;*/
 text-align: center; 
 }
 
 
 header{
-	width: 1000px;
+	width: 100%;
 	height: 120 px;
-	background: rgba(255, 255, 255, 10,70);
+	/* background: rgba(255, 255, 255, 10,70); */
 }
 
 nav{
-width: 1000px;
-height: 50px;
-background: red;
-border-radius: 10px;
-
+width:100%;
+text-align: left;
+height: 56px;
+background: #fff;
+border-radius: 10px 10px 10px 10px;
+/*border-width: medium;*/
+border-style: solid;
+border-color: gray;
+/*border-button: 3px;*/
+border-width: 3px 0px 3px 0px;
+/*border-top: none;
+border-right: none;
+border-left:none;*/
+box-shadowa: 0px 5px 30px  black ; 
 }
 ul{
 margin: auto;
@@ -63,10 +79,12 @@ padding-top: 4px;
 
 li{
 	float: left;
+	position: relative;
 	list-style-type: none;
+	/*width: auto;*/
 	padding: 10px;
 	background: black;
-	margin: 3px;
+	margin: 4px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
 
@@ -74,7 +92,7 @@ li{
 
 section{
 	width: 700px;
-	background: gray;
+	background: #fbfbfb;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
@@ -85,7 +103,7 @@ aside{
 	width: 280px;
 	background: white;
 	height: 600px;
-	float: left;
+	float: right;
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
@@ -93,12 +111,13 @@ aside{
 
 footer{
 width: 1000px;
-height: 70px;
-background: maroon;
+height: 60px;
+background: #BFA954;
 float: left;
-margin-top: 20px;
+margin-top: 0px;
 border-radius: 10px;
-margin-bottom: 20px;
+margin-bottom: 5px;
+font-size: 1em;
 }
 
 p{
@@ -111,9 +130,18 @@ p{
 }
 
 
-
-
 /*CLASES*/
+
+.catf{
+	float: right;
+	width: 120px;
+}
+
+.dogf{
+	float: left;
+	width: 135px;
+}
+
 
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
