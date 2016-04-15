@@ -57,7 +57,7 @@ header{
 }
 
 nav{
-z-index: 1111;
+/*z-index: 1111;*/
 position: relative;
 
 width:100%;
@@ -144,8 +144,16 @@ margin-top: 0px;
 font-weight: bolder;
 }
 
-/*CLASES*/
+figure{
+	color: #666;
+	background: white;
+	font-family: 'Muli';
+}
 
+a{
+text-decoration: none;
+}
+/*CLASES*/
 
 
 .menu-on{
@@ -236,7 +244,6 @@ font-weight: bolder;
 .ancho_menu_paginas{width: 970px;}
 
 /*SEUDO CLASES*/
-
 
 
 
